@@ -1,4 +1,4 @@
-"""Build original Python project covers and reproducible demo dashboards.
+"""Build reproducible demo dashboards and any missing project cover images.
 
 All records generated here are synthetic examples. They are not real student,
 shopping, wildlife-tracking, or pharmacy records.
@@ -723,10 +723,15 @@ def create_cover(slug: str, index: str, title: str, subtitle: str, motif: str, a
 
 def generate_covers() -> None:
     COVERS.mkdir(parents=True, exist_ok=True)
-    create_cover("student-performance-analysis", "01", "Student Performance Analysis", "A clearer view of learning patterns", "student", CORAL)
-    create_cover("market-basket-analysis", "02", "Market Basket Analysis", "Discover useful product relationships", "basket", TEAL)
-    create_cover("bird-migration-tracking", "03", "Bird Migration Tracking System", "A connected view of sample telemetry", "bird", BLUE)
-    create_cover("pharmacy-inventory-alert", "04", "Pharmacy Inventory & Alert System", "Stock signals, organized for review", "pharmacy", GOLD)
+    covers = [
+        ("student-performance-analysis", "01", "Student Performance Analysis", "A clearer view of learning patterns", "student", CORAL),
+        ("market-basket-analysis", "02", "Market Basket Analysis", "Discover useful product relationships", "basket", TEAL),
+        ("bird-migration-tracking", "03", "Bird Migration Tracking System", "A connected view of sample telemetry", "bird", BLUE),
+        ("pharmacy-inventory-alert", "04", "Pharmacy Inventory & Alert System", "Stock signals, organized for review", "pharmacy", GOLD),
+    ]
+    for cover in covers:
+        if not (COVERS / f"{cover[0]}.jpg").exists():
+            create_cover(*cover)
 
 
 def main() -> None:
@@ -736,7 +741,7 @@ def main() -> None:
     generate_bird_tracking()
     generate_pharmacy_inventory()
     generate_covers()
-    print("Built four Python project demos, interactive dashboards, sample datasets, and original cover illustrations.")
+    print("Built four Python demos, dashboards, and sample datasets; created only missing cover illustrations.")
     for slug in (
         "student-performance-analysis",
         "market-basket-analysis",
