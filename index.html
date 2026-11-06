@@ -1349,6 +1349,32 @@
 
           <article class="certificate" data-category="professional">
             <div class="certificate-top">
+              <span class="cert-icon">GH</span>
+              <span class="cert-type">Hackathon certificate</span>
+            </div>
+
+            <div class="certificate-body">
+              <h3>GreenCode Hackathon</h3>
+              <p class="issuer">
+                GreenCode Hackathon · Lusaka, Zambia · 30 October - 1 November 2026
+              </p>
+
+              <div class="certificate-footer">
+                <span class="id-badge">Certificate record</span>
+                <button
+                  class="details"
+                  data-title="GreenCode Hackathon"
+                  data-issuer="GreenCode Hackathon"
+                  data-date="30 October - 1 November 2026"
+                  data-id="Not stated on certificate">
+                  View details &#8594;
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="certificate" data-category="professional">
+            <div class="certificate-top">
               <span class="cert-icon">OA</span>
               <span class="cert-type">Certification</span>
             </div>
@@ -2119,6 +2145,7 @@
     const modal = document.querySelector('#credential-modal');
 
     const certificateImages = {
+      'GreenCode Hackathon': 'greencode-hackathon.jpg',
       ICIP: 'icip.png',
       'Entrepreneurship Certificate': 'entrepreneurship-1.png',
       'Entrepreneurship Certificate 2': 'entrepreneurship-2.png',
@@ -2131,6 +2158,12 @@
     };
 
     const certificateMeta = {
+      'GreenCode Hackathon': [
+        'GreenCode Hackathon',
+        'Hackathon participation',
+        '30 October - 1 November 2026'
+      ],
+
       ICIP: [
         'OPSWAT Academy',
         'Cybersecurity',
@@ -2187,6 +2220,9 @@
     };
 
     const certificateDescriptions = {
+
+      'GreenCode Hackathon':
+        'Recognizes outstanding participation, innovation and contribution at the GreenCode Hackathon in Lusaka, Zambia.',
 
       ICIP:
         'Validates foundational knowledge in critical infrastructure protection, cybersecurity principles, and threat prevention strategies.',
@@ -2355,6 +2391,19 @@
           Tap to flip
         </button>
       `;
+
+      if (title === 'GreenCode Hackathon') {
+        const original = document.createElement('a');
+        original.href = 'assets/certificates/greencode-hackathon.pdf';
+        original.target = '_blank';
+        original.rel = 'noopener noreferrer';
+        original.textContent = 'Open original PDF';
+        original.setAttribute(
+          'aria-label',
+          'Open original GreenCode Hackathon certificate PDF'
+        );
+        actions.append(original);
+      }
 
       actions
         .querySelector('button')
