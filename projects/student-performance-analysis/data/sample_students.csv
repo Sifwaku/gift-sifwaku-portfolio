@@ -1,0 +1,281 @@
+student_id,weekly_study_hours,attendance_pct,assignment_completion_pct,sleep_hours,final_score_pct,performance_band
+S001,2.4,84.9,100.0,6.8,50.1,Developing
+S002,3.7,78.8,78.4,7.2,49.1,Needs support
+S003,1.0,69.4,35.8,8.3,33.4,Needs support
+S004,5.1,73.3,80.8,8.4,59.9,Developing
+S005,4.2,99.5,100.0,7.7,64.9,Developing
+S006,3.0,83.6,71.2,8.3,40.0,Needs support
+S007,3.0,77.0,84.4,8.8,44.4,Needs support
+S008,3.8,79.3,86.2,7.4,54.4,Developing
+S009,3.1,79.5,83.6,5.5,48.1,Needs support
+S010,3.1,70.9,82.2,8.1,50.9,Developing
+S011,4.3,83.3,78.9,6.0,42.6,Needs support
+S012,4.0,72.6,72.0,9.0,38.7,Needs support
+S013,3.3,80.9,67.3,8.8,34.4,Needs support
+S014,3.3,71.4,71.9,6.5,36.6,Needs support
+S015,3.6,85.3,77.1,5.8,44.4,Needs support
+S016,2.6,73.1,51.9,6.3,24.0,Needs support
+S017,2.9,77.3,65.1,6.9,37.6,Needs support
+S018,4.1,100.0,73.9,8.3,58.8,Developing
+S019,3.2,83.0,71.5,5.7,50.0,Developing
+S020,1.7,72.2,58.7,7.9,26.9,Needs support
+S021,2.8,75.1,77.7,4.8,42.4,Needs support
+S022,4.2,72.4,73.9,8.3,37.5,Needs support
+S023,3.1,84.7,65.0,6.9,36.4,Needs support
+S024,3.2,89.3,55.2,7.2,43.1,Needs support
+S025,4.2,81.2,65.7,6.9,41.6,Needs support
+S026,5.7,100.0,85.2,8.0,56.9,Developing
+S027,2.5,72.6,68.0,7.4,39.3,Needs support
+S028,5.1,70.2,55.0,8.8,41.6,Needs support
+S029,1.9,65.6,74.4,5.1,31.4,Needs support
+S030,3.6,69.7,63.7,6.0,39.1,Needs support
+S031,1.9,68.9,52.9,5.6,32.9,Needs support
+S032,5.1,89.4,92.8,7.8,65.1,Proficient
+S033,4.4,74.2,90.2,5.2,49.7,Needs support
+S034,4.8,82.6,69.6,9.6,50.3,Developing
+S035,2.3,74.2,61.2,7.1,43.2,Needs support
+S036,4.3,75.0,60.6,8.3,48.4,Needs support
+S037,2.8,67.3,77.5,6.0,29.7,Needs support
+S038,2.8,75.6,79.0,7.2,42.4,Needs support
+S039,4.0,86.9,68.9,7.7,43.7,Needs support
+S040,4.5,77.1,93.2,6.3,30.3,Needs support
+S041,3.7,72.3,83.3,6.8,36.8,Needs support
+S042,2.6,72.9,65.6,8.6,35.6,Needs support
+S043,2.4,75.3,74.5,8.3,35.3,Needs support
+S044,5.2,80.5,60.2,7.6,39.3,Needs support
+S045,4.1,77.7,71.6,9.1,46.5,Needs support
+S046,4.3,79.2,78.5,5.0,50.3,Developing
+S047,6.1,80.1,84.5,7.3,51.0,Developing
+S048,2.4,71.6,90.5,6.6,40.9,Needs support
+S049,6.6,86.2,90.7,8.5,49.9,Needs support
+S050,7.3,100.0,95.1,8.2,78.1,Proficient
+S051,5.4,81.6,65.2,8.2,50.3,Developing
+S052,4.4,85.3,73.9,6.4,38.7,Needs support
+S053,2.6,76.8,57.4,7.6,46.1,Needs support
+S054,4.6,73.6,100.0,8.1,58.4,Developing
+S055,2.8,65.0,63.2,8.4,45.4,Needs support
+S056,3.4,73.6,72.3,6.0,43.5,Needs support
+S057,3.0,81.1,83.8,6.3,45.8,Needs support
+S058,3.8,74.2,80.7,7.3,42.7,Needs support
+S059,5.0,78.8,62.1,8.5,55.5,Developing
+S060,2.7,51.2,75.2,7.7,34.1,Needs support
+S061,2.2,68.9,73.4,8.4,31.2,Needs support
+S062,2.1,74.5,62.6,4.9,30.2,Needs support
+S063,2.2,75.8,70.5,6.7,25.1,Needs support
+S064,1.6,73.2,63.3,7.5,31.6,Needs support
+S065,2.3,69.9,48.7,7.3,35.5,Needs support
+S066,5.0,82.3,72.3,5.0,51.3,Developing
+S067,2.7,80.8,67.5,8.2,45.2,Needs support
+S068,3.7,77.5,65.6,7.4,41.5,Needs support
+S069,1.9,52.5,69.9,6.5,28.8,Needs support
+S070,3.6,86.3,84.1,8.3,49.7,Needs support
+S071,1.2,59.5,63.4,5.2,39.9,Needs support
+S072,2.5,84.6,62.2,6.5,27.0,Needs support
+S073,6.2,100.0,100.0,7.9,85.1,Strong
+S074,2.7,80.3,69.0,7.4,33.7,Needs support
+S075,4.8,90.4,82.2,6.8,51.8,Developing
+S076,4.0,94.5,64.7,6.8,50.7,Developing
+S077,3.2,67.7,67.4,6.8,43.6,Needs support
+S078,2.6,75.9,78.9,7.9,40.3,Needs support
+S079,5.0,85.9,88.0,6.7,57.4,Developing
+S080,3.2,68.6,67.6,7.7,51.5,Developing
+S081,5.3,100.0,80.6,4.8,78.3,Proficient
+S082,2.5,68.9,68.9,8.3,40.8,Needs support
+S083,3.5,71.7,60.1,9.6,49.0,Needs support
+S084,4.0,81.9,71.7,7.5,46.8,Needs support
+S085,3.9,87.5,67.2,6.9,60.5,Developing
+S086,1.9,66.0,46.7,6.4,26.7,Needs support
+S087,2.6,69.0,68.7,7.7,41.3,Needs support
+S088,3.2,80.3,68.0,6.3,32.3,Needs support
+S089,2.3,61.4,48.1,6.1,18.0,Needs support
+S090,4.2,74.7,65.7,4.8,61.9,Developing
+S091,4.1,73.7,73.6,7.3,55.4,Developing
+S092,1.0,63.5,24.1,6.7,26.5,Needs support
+S093,1.1,66.7,61.9,6.8,19.2,Needs support
+S094,1.8,85.3,66.2,7.0,22.0,Needs support
+S095,3.5,85.2,79.5,6.3,43.9,Needs support
+S096,5.9,88.1,76.6,7.2,60.8,Developing
+S097,2.9,73.5,51.5,5.9,40.9,Needs support
+S098,3.7,85.6,80.1,6.9,47.8,Needs support
+S099,2.1,75.1,47.9,6.7,41.8,Needs support
+S100,2.1,78.9,70.9,5.2,37.0,Needs support
+S101,1.0,78.1,50.7,5.7,27.8,Needs support
+S102,3.4,69.1,58.7,6.4,47.7,Needs support
+S103,4.6,64.2,80.5,6.4,41.6,Needs support
+S104,3.0,75.2,82.2,7.3,45.3,Needs support
+S105,5.1,85.2,77.8,6.6,49.9,Needs support
+S106,3.6,80.6,69.3,6.9,39.0,Needs support
+S107,3.4,72.3,50.5,6.6,50.2,Developing
+S108,4.0,78.1,84.2,4.3,54.3,Developing
+S109,4.0,84.3,74.9,6.9,52.5,Developing
+S110,4.8,88.2,74.9,6.1,63.2,Developing
+S111,2.4,83.7,81.7,6.8,43.6,Needs support
+S112,0.5,47.9,37.9,6.2,26.1,Needs support
+S113,3.5,64.7,65.7,7.7,33.9,Needs support
+S114,2.6,85.8,67.2,7.0,38.9,Needs support
+S115,3.4,82.0,67.3,7.7,47.2,Needs support
+S116,5.5,92.4,52.2,7.8,47.0,Needs support
+S117,2.0,69.2,68.3,6.4,27.2,Needs support
+S118,4.4,77.5,75.4,7.9,39.6,Needs support
+S119,4.6,83.8,89.0,7.2,59.4,Developing
+S120,4.0,72.2,98.4,5.9,44.1,Needs support
+S121,4.8,70.9,75.7,6.9,51.8,Developing
+S122,2.8,66.0,72.7,7.1,42.1,Needs support
+S123,2.5,74.6,69.8,8.3,38.0,Needs support
+S124,4.7,87.8,79.5,6.6,53.3,Developing
+S125,4.3,94.3,73.8,8.6,55.0,Developing
+S126,5.1,87.6,84.3,7.8,61.0,Developing
+S127,3.7,82.2,85.9,4.8,56.1,Developing
+S128,5.4,99.3,71.0,5.9,48.2,Needs support
+S129,3.0,69.6,92.0,7.6,44.2,Needs support
+S130,2.1,64.0,70.4,5.5,21.3,Needs support
+S131,0.9,62.3,61.9,7.5,37.2,Needs support
+S132,2.0,70.7,37.1,8.5,18.0,Needs support
+S133,4.4,97.8,76.0,6.7,54.7,Developing
+S134,1.6,66.8,50.1,8.5,26.0,Needs support
+S135,2.8,85.4,75.1,8.4,39.4,Needs support
+S136,6.0,84.6,95.6,6.9,68.2,Proficient
+S137,4.5,85.7,90.1,7.0,57.8,Developing
+S138,5.6,92.1,80.2,7.2,52.0,Developing
+S139,2.2,76.3,63.9,7.5,39.4,Needs support
+S140,0.3,70.4,60.9,5.4,23.9,Needs support
+S141,5.3,79.7,55.3,6.8,44.7,Needs support
+S142,1.6,81.5,56.9,5.2,18.2,Needs support
+S143,3.5,85.6,65.1,6.6,50.5,Developing
+S144,3.7,72.8,78.6,6.8,50.0,Developing
+S145,2.2,76.3,59.6,5.1,36.6,Needs support
+S146,5.3,76.8,89.6,5.7,50.2,Developing
+S147,5.3,86.2,78.4,6.6,65.7,Proficient
+S148,4.1,70.8,84.7,9.3,78.2,Proficient
+S149,3.4,82.9,97.4,5.5,47.7,Needs support
+S150,3.6,100.0,90.9,7.1,56.8,Developing
+S151,2.0,83.3,75.5,6.1,29.9,Needs support
+S152,3.1,81.9,83.2,6.6,37.2,Needs support
+S153,3.3,69.5,66.0,8.0,55.3,Developing
+S154,2.3,75.8,56.4,7.3,53.6,Developing
+S155,4.5,91.2,66.2,7.4,49.3,Needs support
+S156,1.6,69.1,64.4,7.5,25.8,Needs support
+S157,2.8,75.9,85.8,7.6,35.1,Needs support
+S158,0.6,51.9,48.2,4.7,18.0,Needs support
+S159,4.0,73.0,79.7,7.4,47.5,Needs support
+S160,4.3,66.4,60.7,6.9,33.3,Needs support
+S161,4.2,95.9,60.3,7.4,43.9,Needs support
+S162,7.0,96.4,99.5,7.9,79.7,Proficient
+S163,4.6,88.0,68.6,7.4,50.1,Developing
+S164,2.2,70.7,56.5,7.7,27.2,Needs support
+S165,6.7,79.6,100.0,5.8,54.4,Developing
+S166,2.2,73.9,66.1,7.5,44.4,Needs support
+S167,4.4,76.3,75.4,6.9,39.7,Needs support
+S168,4.3,73.4,72.9,6.9,45.8,Needs support
+S169,2.3,73.1,70.5,8.4,45.7,Needs support
+S170,5.1,85.5,71.2,6.5,57.6,Developing
+S171,3.8,77.7,73.9,6.3,47.1,Needs support
+S172,4.1,74.1,87.6,5.6,49.2,Needs support
+S173,2.6,65.8,62.9,6.7,26.2,Needs support
+S174,5.0,84.2,50.6,8.1,45.0,Needs support
+S175,2.3,82.5,57.8,5.2,30.1,Needs support
+S176,1.2,55.1,69.1,7.3,18.0,Needs support
+S177,5.2,79.5,93.4,4.3,49.6,Needs support
+S178,2.9,73.7,72.7,6.3,37.7,Needs support
+S179,3.5,76.2,88.4,7.5,45.4,Needs support
+S180,5.8,82.6,70.5,6.4,54.8,Developing
+S181,4.8,98.7,93.4,5.7,58.7,Developing
+S182,4.2,83.8,77.5,6.6,51.1,Developing
+S183,4.7,75.0,85.8,8.0,66.4,Proficient
+S184,2.5,58.4,32.1,8.6,30.7,Needs support
+S185,4.3,79.9,86.4,8.6,59.7,Developing
+S186,4.8,94.9,80.7,7.7,51.5,Developing
+S187,4.3,82.8,98.6,7.4,56.5,Developing
+S188,3.1,57.7,72.0,8.0,40.9,Needs support
+S189,0.3,53.2,43.8,5.8,18.0,Needs support
+S190,4.1,81.2,64.8,6.0,31.0,Needs support
+S191,3.5,86.4,76.6,8.4,37.0,Needs support
+S192,2.9,76.5,72.4,7.9,45.2,Needs support
+S193,4.4,82.6,68.3,7.9,49.3,Needs support
+S194,3.7,87.3,59.8,7.2,43.2,Needs support
+S195,3.7,88.4,90.5,6.1,43.1,Needs support
+S196,1.5,64.1,58.9,5.9,27.5,Needs support
+S197,1.6,73.1,61.1,8.0,36.6,Needs support
+S198,3.9,71.6,66.9,8.1,60.1,Developing
+S199,3.5,69.1,88.3,5.8,42.8,Needs support
+S200,3.6,82.7,85.3,6.2,44.9,Needs support
+S201,3.6,66.8,59.8,6.9,42.0,Needs support
+S202,3.9,80.8,72.7,7.9,57.4,Developing
+S203,3.4,80.0,60.2,6.6,60.7,Developing
+S204,3.6,85.0,94.2,6.1,53.0,Developing
+S205,3.7,69.4,77.9,8.0,33.4,Needs support
+S206,4.6,85.2,73.4,7.6,52.2,Developing
+S207,2.8,73.6,63.7,6.3,27.3,Needs support
+S208,4.4,93.3,82.4,6.3,44.7,Needs support
+S209,4.2,74.7,72.0,8.2,63.2,Developing
+S210,3.5,69.0,90.2,5.7,40.4,Needs support
+S211,2.8,78.8,56.9,6.7,31.7,Needs support
+S212,3.9,72.4,58.5,7.5,54.3,Developing
+S213,4.5,71.5,93.3,7.2,51.9,Developing
+S214,2.1,78.9,59.2,8.0,26.2,Needs support
+S215,3.5,81.0,88.4,5.2,45.4,Needs support
+S216,3.5,52.7,82.0,7.0,28.3,Needs support
+S217,2.6,66.4,50.6,7.3,26.3,Needs support
+S218,2.6,65.2,59.8,7.4,36.5,Needs support
+S219,1.5,74.3,61.9,7.6,18.0,Needs support
+S220,2.0,83.3,61.5,5.8,40.1,Needs support
+S221,1.5,85.7,65.0,8.5,37.8,Needs support
+S222,2.6,79.7,59.8,7.5,45.3,Needs support
+S223,2.7,65.6,66.5,7.6,33.6,Needs support
+S224,2.7,65.4,79.6,6.4,41.1,Needs support
+S225,3.9,71.6,89.3,7.2,39.4,Needs support
+S226,3.2,80.2,60.3,8.4,34.9,Needs support
+S227,2.5,83.6,63.7,7.0,39.4,Needs support
+S228,2.5,58.1,65.0,7.2,33.7,Needs support
+S229,2.0,76.2,47.7,7.3,32.1,Needs support
+S230,3.2,83.7,81.0,5.3,54.1,Developing
+S231,3.1,78.7,76.4,6.8,40.5,Needs support
+S232,5.4,100.0,87.4,7.7,66.2,Proficient
+S233,5.3,89.6,79.3,6.5,59.7,Developing
+S234,5.2,85.3,90.7,7.0,59.2,Developing
+S235,6.0,93.1,95.6,7.0,67.8,Proficient
+S236,1.9,66.5,77.3,5.3,18.0,Needs support
+S237,4.2,72.0,73.2,7.8,43.3,Needs support
+S238,4.4,84.7,79.9,5.6,58.8,Developing
+S239,4.0,89.0,69.3,7.4,46.8,Needs support
+S240,6.1,86.6,80.4,6.9,66.5,Proficient
+S241,6.6,98.0,98.6,6.6,72.5,Proficient
+S242,4.6,79.4,77.8,7.1,26.1,Needs support
+S243,4.2,93.8,73.2,7.8,41.6,Needs support
+S244,2.0,73.1,71.2,7.9,30.4,Needs support
+S245,2.0,75.7,72.0,6.5,29.4,Needs support
+S246,4.3,87.1,66.3,6.8,45.3,Needs support
+S247,3.3,66.1,62.8,6.1,34.3,Needs support
+S248,1.7,68.8,71.2,5.5,24.0,Needs support
+S249,3.2,91.4,76.5,8.0,42.1,Needs support
+S250,3.9,79.5,70.7,5.8,28.5,Needs support
+S251,4.6,93.4,91.2,6.2,71.3,Proficient
+S252,3.3,83.8,69.1,7.4,55.6,Developing
+S253,3.1,61.2,46.1,5.6,39.5,Needs support
+S254,3.4,83.0,61.5,7.5,42.9,Needs support
+S255,3.6,69.5,54.4,6.1,31.3,Needs support
+S256,1.9,73.3,77.5,5.8,54.4,Developing
+S257,4.4,78.3,82.3,6.4,42.2,Needs support
+S258,6.1,89.0,86.1,6.1,73.5,Proficient
+S259,4.4,81.0,48.3,7.2,48.6,Needs support
+S260,1.6,71.6,44.2,8.5,22.3,Needs support
+S261,3.5,74.2,69.8,7.7,37.0,Needs support
+S262,1.2,57.2,38.6,7.5,19.0,Needs support
+S263,1.1,59.6,70.9,6.4,21.2,Needs support
+S264,4.2,88.1,73.9,6.7,38.3,Needs support
+S265,3.5,91.5,69.8,7.1,50.2,Developing
+S266,2.5,75.5,65.9,6.9,29.7,Needs support
+S267,0.8,73.1,46.6,7.1,31.0,Needs support
+S268,1.8,78.4,50.6,5.7,28.7,Needs support
+S269,3.6,67.2,49.2,8.8,41.9,Needs support
+S270,3.4,62.5,71.5,5.6,39.4,Needs support
+S271,4.3,80.5,80.2,6.8,46.4,Needs support
+S272,5.3,70.1,77.7,7.8,52.9,Developing
+S273,3.0,73.3,65.5,6.2,39.6,Needs support
+S274,4.0,67.9,62.6,8.1,63.3,Developing
+S275,3.2,71.6,73.1,5.5,28.8,Needs support
+S276,2.8,68.7,38.5,6.2,25.9,Needs support
+S277,3.1,80.2,56.2,4.5,33.5,Needs support
+S278,4.6,77.1,69.1,8.0,39.9,Needs support
+S279,2.1,62.7,58.5,5.7,18.4,Needs support
+S280,4.8,83.7,80.7,6.2,39.8,Needs support

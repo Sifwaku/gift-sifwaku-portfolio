@@ -1,0 +1,37 @@
+sku,product,category,quantity_on_hand,reorder_level,unit_cost_demo,stock_value_demo,expiry_date_demo,days_to_expiry_demo,status_demo
+DEMO-026,Electrolyte drink mix,Wellness,15,12,15.29,229.38,2027-08-05,272,In stock
+DEMO-002,Elastic bandage,First aid,30,26,8.09,242.69,2027-10-08,336,In stock
+DEMO-004,Vitamin C tablets,Wellness,33,14,25.02,825.55,2027-06-11,217,In stock
+DEMO-024,Lens wipes,Care,34,32,24.3,826.09,2027-07-16,252,In stock
+DEMO-003,Digital thermometer,Devices,36,19,11.27,405.83,2026-11-19,13,In stock
+DEMO-032,Oral care rinse,Care,41,32,8.44,345.93,2027-12-12,401,In stock
+DEMO-030,Paper tape,First aid,45,17,16.68,750.63,2027-09-29,327,In stock
+DEMO-017,Face shields,Protection,46,27,18.52,851.83,2027-01-20,75,In stock
+DEMO-016,Medical tape,First aid,47,21,16.18,760.66,2027-06-02,208,In stock
+DEMO-005,Surgical masks,Protection,49,26,25.72,1260.35,2027-09-28,326,In stock
+DEMO-023,Hot water bottle,Devices,52,37,13.32,692.41,2027-08-19,286,In stock
+DEMO-025,First aid kit,First aid,52,18,11.82,614.4,2027-06-06,212,In stock
+DEMO-007,Hand sanitizer,Protection,55,26,6.51,358.29,2027-02-28,114,In stock
+DEMO-014,Antiseptic wipes,Care,56,22,8.46,473.7,2027-08-15,282,In stock
+DEMO-021,Bandage scissors,Devices,57,32,8.15,464.67,2027-03-07,121,In stock
+DEMO-001,Oral hydration sachets,Wellness,58,23,2.22,128.94,2027-02-11,97,In stock
+DEMO-031,Reusable cold pack,Devices,58,28,7.28,422.32,2027-03-07,121,In stock
+DEMO-012,Pill organizer,Devices,60,22,21.76,1305.43,2027-11-17,376,In stock
+DEMO-019,Calcium tablets,Wellness,60,22,22.15,1328.8,2027-07-28,264,In stock
+DEMO-013,Zinc tablets,Wellness,61,21,13.57,827.61,2027-09-17,315,In stock
+DEMO-022,Disposable aprons,Protection,63,35,11.55,727.9,2027-08-03,270,In stock
+DEMO-006,Adhesive dressings,First aid,64,23,17.45,1116.83,2027-03-31,145,In stock
+DEMO-036,Cleaning swabs,Care,64,37,13.93,891.82,2027-01-02,57,In stock
+DEMO-029,Moisturizing cream,Care,65,12,26.06,1694.2,2027-02-16,102,In stock
+DEMO-011,Gauze pads,First aid,67,33,24.47,1639.64,2027-12-12,401,In stock
+DEMO-035,Compress pads,First aid,69,28,5.87,405.18,2027-06-09,215,In stock
+DEMO-033,Multivitamin tablets,Wellness,71,33,2.43,172.86,2027-09-30,328,In stock
+DEMO-015,Ice pack,Devices,16,25,17.19,274.96,2027-01-16,71,Reorder
+DEMO-018,Digital scale,Devices,16,22,25.02,400.37,2027-06-22,228,Reorder
+DEMO-010,Saline solution,Care,18,37,25.44,457.94,2027-02-03,89,Reorder
+DEMO-034,Protective gowns,Protection,21,32,22.86,479.98,2027-07-15,251,Reorder
+DEMO-020,Wound cleanser,Care,24,28,23.21,556.93,2027-06-21,227,Reorder
+DEMO-028,Measuring cup,Devices,25,27,2.2,55.09,2027-12-25,414,Reorder
+DEMO-027,Protective eyewear,Protection,4,20,5.54,22.17,2027-01-14,69,Urgent reorder
+DEMO-009,Disposable gloves,Protection,6,35,19.94,119.62,2027-04-06,151,Urgent reorder
+DEMO-008,Cotton wool pack,First aid,7,34,9.93,69.53,2027-04-23,168,Urgent reorder

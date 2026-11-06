@@ -755,8 +755,19 @@
     .project {
       background:#fff;
       border:1px solid var(--line);
-      padding:20px;
+      border-radius:10px;
+      overflow:hidden;
     }
+
+    .project-image {
+      display:block;
+      width:100%;
+      aspect-ratio:16/9;
+      object-fit:cover;
+      background:var(--navy);
+    }
+
+    .project-body { padding:18px 20px 20px; }
 
     .project h3 { font-size:1.25rem; }
 
@@ -764,6 +775,33 @@
       color:var(--slate);
       margin:8px 0 12px;
     }
+
+    .project-actions {
+      display:flex;
+      flex-wrap:wrap;
+      gap:9px;
+      margin-top:16px;
+    }
+
+    .project-action {
+      display:inline-flex;
+      align-items:center;
+      border:1px solid var(--line);
+      border-radius:5px;
+      padding:8px 11px;
+      color:var(--navy);
+      font-size:.76rem;
+      font-weight:700;
+    }
+
+    .project-action.primary {
+      background:var(--navy);
+      border-color:var(--navy);
+      color:#fff;
+    }
+
+    .project-action:hover,
+    .project-action:focus { border-color:var(--coral); color:var(--coral); }
 
     .tags {
       display:flex;
@@ -1732,67 +1770,98 @@
         <div class="project-grid">
 
           <article class="project">
-            <h3>Student Performance Analysis</h3>
+            <img class="project-image" src="assets/projects/student-performance-analysis.jpg" alt="Python-generated student performance analysis cover with a score trend chart">
+            <div class="project-body">
+              <h3>Student Performance Analysis</h3>
 
-            <p>
-              A data analysis project examining student performance data
-              to identify patterns, trends and factors associated with
-              academic performance.
-            </p>
+              <p>
+                An interactive Python demo exploring synthetic study habits,
+                attendance and final-score patterns.
+              </p>
 
-            <div class="tags">
-              <span>Python</span>
-              <span>Pandas</span>
-              <span>Matplotlib</span>
-              <span>EDA</span>
+              <div class="tags">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>Plotly</span>
+                <span>EDA</span>
+              </div>
+
+              <div class="project-actions">
+                <a class="project-action primary" href="projects/student-performance-analysis/dashboard.html">Open Python demo &#8599;</a>
+                <a class="project-action" href="https://github.com/Sifwaku/gift-sifwaku-portfolio/tree/main/projects/student-performance-analysis" target="_blank" rel="noopener noreferrer">Code &amp; data &#8599;</a>
+              </div>
             </div>
           </article>
 
           <article class="project">
-            <h3>Market Basket Analysis</h3>
+            <img class="project-image" src="assets/projects/market-basket-analysis.jpg" alt="Python-generated market basket analysis cover connecting products in sample baskets">
+            <div class="project-body">
+              <h3>Market Basket Analysis</h3>
 
-            <p>
-              A data mining project applying association-rule techniques
-              to identify relationships between products and purchasing
-              behaviour.
-            </p>
+              <p>
+                A reproducible association-rule demo showing support,
+                confidence and lift in synthetic shopping baskets.
+              </p>
 
-            <div class="tags">
-              <span>Python</span>
-              <span>Data Mining</span>
-              <span>Association Rules</span>
+              <div class="tags">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>Data Mining</span>
+                <span>Association Rules</span>
+              </div>
+
+              <div class="project-actions">
+                <a class="project-action primary" href="projects/market-basket-analysis/dashboard.html">Open Python demo &#8599;</a>
+                <a class="project-action" href="https://github.com/Sifwaku/gift-sifwaku-portfolio/tree/main/projects/market-basket-analysis" target="_blank" rel="noopener noreferrer">Code &amp; data &#8599;</a>
+              </div>
             </div>
           </article>
 
           <article class="project">
-            <h3>Bird Migration Tracking System</h3>
+            <img class="project-image" src="assets/projects/bird-migration-tracking.jpg" alt="Python-generated bird tracking cover showing a simulated telemetry route">
+            <div class="project-body">
+              <h3>Bird Migration Tracking System</h3>
 
-            <p>
-              A connected-systems project concept designed to monitor
-              and track bird migration using sensing devices and
-              communication technologies.
-            </p>
+              <p>
+                A connected-systems concept with a Python telemetry prototype
+                for simulated GPS, battery and radio-signal readings.
+              </p>
 
-            <div class="tags">
-              <span>ESP32</span>
-              <span>IoT</span>
-              <span>LoRa / Wi-Fi</span>
-              <span>C#</span>
+              <div class="tags">
+                <span>ESP32</span>
+                <span>IoT</span>
+                <span>LoRa / Wi-Fi</span>
+                <span>Python prototype</span>
+              </div>
+
+              <div class="project-actions">
+                <a class="project-action primary" href="projects/bird-migration-tracking/dashboard.html">Open Python demo &#8599;</a>
+                <a class="project-action" href="https://github.com/Sifwaku/gift-sifwaku-portfolio/tree/main/projects/bird-migration-tracking" target="_blank" rel="noopener noreferrer">Code &amp; data &#8599;</a>
+              </div>
             </div>
           </article>
 
           <article class="project">
-            <h3>Pharmacy Inventory &amp; Alert System</h3>
+            <img class="project-image" src="assets/projects/pharmacy-inventory-alert.jpg" alt="Python-generated pharmacy inventory cover with shelves and a stock alert dashboard">
+            <div class="project-body">
+              <h3>Pharmacy Inventory &amp; Alert System</h3>
 
-            <p>
-              An automation concept designed to monitor pharmacy
-              inventory and generate alerts when stock requires attention.
-            </p>
+              <p>
+                An automation concept with a Python demo for synthetic stock,
+                reorder thresholds and expiry review.
+              </p>
 
-            <div class="tags">
-              <span>Google Sheets</span>
-              <span>n8n</span>
-              <span>Automation</span>
+              <div class="tags">
+                <span>Google Sheets</span>
+                <span>n8n</span>
+                <span>Automation</span>
+                <span>Python prototype</span>
+              </div>
+
+              <div class="project-actions">
+                <a class="project-action primary" href="projects/pharmacy-inventory-alert/dashboard.html">Open Python demo &#8599;</a>
+                <a class="project-action" href="https://github.com/Sifwaku/gift-sifwaku-portfolio/tree/main/projects/pharmacy-inventory-alert" target="_blank" rel="noopener noreferrer">Code &amp; data &#8599;</a>
+              </div>
             </div>
           </article>
 

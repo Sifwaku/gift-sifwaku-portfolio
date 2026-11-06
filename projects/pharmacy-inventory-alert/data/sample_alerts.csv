@@ -1,0 +1,12 @@
+sku,product,category,quantity_on_hand,reorder_level,unit_cost_demo,stock_value_demo,expiry_date_demo,days_to_expiry_demo,status_demo
+DEMO-003,Digital thermometer,Devices,36,19,11.27,405.83,2026-11-19,13,In stock
+DEMO-036,Cleaning swabs,Care,64,37,13.93,891.82,2027-01-02,57,In stock
+DEMO-015,Ice pack,Devices,16,25,17.19,274.96,2027-01-16,71,Reorder
+DEMO-018,Digital scale,Devices,16,22,25.02,400.37,2027-06-22,228,Reorder
+DEMO-010,Saline solution,Care,18,37,25.44,457.94,2027-02-03,89,Reorder
+DEMO-034,Protective gowns,Protection,21,32,22.86,479.98,2027-07-15,251,Reorder
+DEMO-020,Wound cleanser,Care,24,28,23.21,556.93,2027-06-21,227,Reorder
+DEMO-028,Measuring cup,Devices,25,27,2.2,55.09,2027-12-25,414,Reorder
+DEMO-027,Protective eyewear,Protection,4,20,5.54,22.17,2027-01-14,69,Urgent reorder
+DEMO-009,Disposable gloves,Protection,6,35,19.94,119.62,2027-04-06,151,Urgent reorder
+DEMO-008,Cotton wool pack,First aid,7,34,9.93,69.53,2027-04-23,168,Urgent reorder

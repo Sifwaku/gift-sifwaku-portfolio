@@ -1,0 +1,85 @@
+antecedent,consequent,support,confidence,lift,transaction_count
+baby lotion,diapers,0.1038,1.0000,9.6296,54
+diapers,baby lotion,0.1038,1.0000,9.6296,54
+baby lotion,wipes,0.1038,1.0000,9.6296,54
+wipes,baby lotion,0.1038,1.0000,9.6296,54
+diapers,wipes,0.1038,1.0000,9.6296,54
+wipes,diapers,0.1038,1.0000,9.6296,54
+baby lotion,diapers + wipes,0.1038,1.0000,9.6296,54
+diapers,baby lotion + wipes,0.1038,1.0000,9.6296,54
+wipes,baby lotion + diapers,0.1038,1.0000,9.6296,54
+baby lotion + diapers,wipes,0.1038,1.0000,9.6296,54
+baby lotion + wipes,diapers,0.1038,1.0000,9.6296,54
+diapers + wipes,baby lotion,0.1038,1.0000,9.6296,54
+berries,oats,0.1404,1.0000,7.1233,73
+oats,berries,0.1404,1.0000,7.1233,73
+berries,yogurt,0.1404,1.0000,7.1233,73
+yogurt,berries,0.1404,1.0000,7.1233,73
+oats,yogurt,0.1404,1.0000,7.1233,73
+yogurt,oats,0.1404,1.0000,7.1233,73
+berries,oats + yogurt,0.1404,1.0000,7.1233,73
+oats,berries + yogurt,0.1404,1.0000,7.1233,73
+yogurt,berries + oats,0.1404,1.0000,7.1233,73
+berries + oats,yogurt,0.1404,1.0000,7.1233,73
+berries + yogurt,oats,0.1404,1.0000,7.1233,73
+oats + yogurt,berries,0.1404,1.0000,7.1233,73
+cheese,pasta,0.2250,1.0000,4.4444,117
+pasta,cheese,0.2250,1.0000,4.4444,117
+cheese,tomato sauce,0.2250,1.0000,4.4444,117
+tomato sauce,cheese,0.2250,1.0000,4.4444,117
+pasta,tomato sauce,0.2250,1.0000,4.4444,117
+tomato sauce,pasta,0.2250,1.0000,4.4444,117
+cheese,pasta + tomato sauce,0.2250,1.0000,4.4444,117
+pasta,cheese + tomato sauce,0.2250,1.0000,4.4444,117
+tomato sauce,cheese + pasta,0.2250,1.0000,4.4444,117
+cheese + pasta,tomato sauce,0.2250,1.0000,4.4444,117
+cheese + tomato sauce,pasta,0.2250,1.0000,4.4444,117
+pasta + tomato sauce,cheese,0.2250,1.0000,4.4444,117
+lemon,sugar,0.2558,1.0000,3.9098,133
+sugar,lemon,0.2558,1.0000,3.9098,133
+lemon,tea,0.2558,1.0000,3.9098,133
+tea,lemon,0.2558,1.0000,3.9098,133
+sugar,tea,0.2558,1.0000,3.9098,133
+tea,sugar,0.2558,1.0000,3.9098,133
+lemon,sugar + tea,0.2558,1.0000,3.9098,133
+sugar,lemon + tea,0.2558,1.0000,3.9098,133
+tea,lemon + sugar,0.2558,1.0000,3.9098,133
+lemon + sugar,tea,0.2558,1.0000,3.9098,133
+lemon + tea,sugar,0.2558,1.0000,3.9098,133
+sugar + tea,lemon,0.2558,1.0000,3.9098,133
+bread,coffee,0.2750,1.0000,3.6364,143
+coffee,bread,0.2750,1.0000,3.6364,143
+bread,milk,0.2750,1.0000,3.6364,143
+milk,bread,0.2750,1.0000,3.6364,143
+coffee,milk,0.2750,1.0000,3.6364,143
+milk,coffee,0.2750,1.0000,3.6364,143
+bread,coffee + milk,0.2750,1.0000,3.6364,143
+coffee,bread + milk,0.2750,1.0000,3.6364,143
+milk,bread + coffee,0.2750,1.0000,3.6364,143
+bread + coffee,milk,0.2750,1.0000,3.6364,143
+bread + milk,coffee,0.2750,1.0000,3.6364,143
+coffee + milk,bread,0.2750,1.0000,3.6364,143
+bread + rice,coffee,0.0423,1.0000,3.6364,22
+coffee + rice,bread,0.0423,1.0000,3.6364,22
+bread + rice,milk,0.0423,1.0000,3.6364,22
+milk + rice,bread,0.0423,1.0000,3.6364,22
+coffee + rice,milk,0.0423,1.0000,3.6364,22
+milk + rice,coffee,0.0423,1.0000,3.6364,22
+bread + water,coffee,0.0385,1.0000,3.6364,20
+coffee + water,bread,0.0385,1.0000,3.6364,20
+bread + water,milk,0.0385,1.0000,3.6364,20
+milk + water,bread,0.0385,1.0000,3.6364,20
+coffee + water,milk,0.0385,1.0000,3.6364,20
+milk + water,coffee,0.0385,1.0000,3.6364,20
+rice,bread,0.0423,0.3492,1.2698,22
+rice,coffee,0.0423,0.3492,1.2698,22
+rice,milk,0.0423,0.3492,1.2698,22
+rice,bread + coffee,0.0423,0.3492,1.2698,22
+rice,bread + milk,0.0423,0.3492,1.2698,22
+rice,coffee + milk,0.0423,0.3492,1.2698,22
+water,bread,0.0385,0.3125,1.1364,20
+water,coffee,0.0385,0.3125,1.1364,20
+water,milk,0.0385,0.3125,1.1364,20
+water,bread + coffee,0.0385,0.3125,1.1364,20
+water,bread + milk,0.0385,0.3125,1.1364,20
+water,coffee + milk,0.0385,0.3125,1.1364,20
