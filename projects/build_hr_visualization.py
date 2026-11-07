@@ -16,6 +16,7 @@ SLUG = "hr-attrition-visualization"
 PROJECT = ROOT / "projects" / SLUG
 DATA = PROJECT / "data" / "ibm_hr_employee_attrition.csv"
 COVER = ROOT / "assets" / "projects" / f"{SLUG}.jpg"
+INCOME_SNAPSHOT = PROJECT / "assets" / "monthly_income_distribution.png"
 KAGGLE_URL = "https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset"
 ODBL_URL = "https://opendatacommons.org/licenses/odbl/1-0/"
 
@@ -286,7 +287,7 @@ def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont | ImageFont.Im
     return ImageFont.load_default()
 
 
-def make_cover(department: pd.DataFrame, overtime_yes: float, overtime_no: float) -> None:
+def make_cover() -> None:
     width, height = 1600, 900
     image = Image.new("RGB", (width, height))
     pixels = image.load()
@@ -319,35 +320,24 @@ def make_cover(department: pd.DataFrame, overtime_yes: float, overtime_no: float
     stage = (755, 130, 1518, 755)
     draw.rounded_rectangle((stage[0] + 12, stage[1] + 15, stage[2] + 12, stage[3] + 15), radius=34, fill=(0, 0, 0, 48))
     draw.rounded_rectangle(stage, radius=32, fill=(248, 250, 250, 255))
-    draw.text((805, 170), "WORKFORCE RETENTION SIGNALS", font=font(18, True), fill=NAVY)
+    draw.text((805, 170), "PROJECT SNAPSHOT", font=font(18, True), fill=NAVY)
     draw.line((805, 214, 1468, 214), fill=LINE, width=2)
-
-    draw.text((810, 250), "ATTRITION RATE BY DEPARTMENT", font=font(24, True), fill=NAVY)
-    draw.text((810, 287), "Share of sample marked as left", font=font(16), fill="#60717D")
-    start_x = 1045
-    bar_max_width = 335
-    max_rate = max(25.0, float(department["AttritionRatePct"].max()) * 1.2)
-    for index, (_, row) in enumerate(department.iterrows()):
-        y = 345 + index * 76
-        label = str(row["Department"])
-        rate = float(row["AttritionRatePct"])
-        draw.text((810, y + 4), label, font=font(18, True), fill=NAVY)
-        draw.rounded_rectangle((start_x, y, start_x + bar_max_width, y + 34), radius=10, fill="#E4EBED")
-        bar_width = int(bar_max_width * rate / max_rate)
-        bar_color = CORAL if index == 0 else TEAL
-        draw.rounded_rectangle((start_x, y, start_x + bar_width, y + 34), radius=10, fill=bar_color)
-        draw.text((start_x + bar_max_width + 12, y + 4), f"{rate:.1f}%", font=font(18, True), fill=NAVY)
-
-    draw.line((810, 590, 1460, 590), fill=LINE, width=2)
-    draw.text((810, 615), "OVERTIME GROUP", font=font(16, True), fill="#60717D")
-    draw.text((810, 657), f"Yes  {overtime_yes:.1f}%", font=font(19, True), fill=CORAL)
-    draw.text((1095, 657), f"No  {overtime_no:.1f}%", font=font(19, True), fill=TEAL)
+    chart_box = (790, 229, 1483, 724)
+    draw.rounded_rectangle(chart_box, radius=17, fill="#F7F9FA", outline=LINE, width=2)
+    with Image.open(INCOME_SNAPSHOT) as source:
+        chart = source.convert("RGB")
+        chart.thumbnail((670, 478), Image.Resampling.LANCZOS)
+        chart_x = chart_box[0] + (chart_box[2] - chart_box[0] - chart.width) // 2
+        chart_y = chart_box[1] + (chart_box[3] - chart_box[1] - chart.height) // 2
+        image.paste(chart, (chart_x, chart_y))
     image.save(COVER, quality=92, optimize=True)
 
 
 def main() -> None:
     if not DATA.exists():
         raise FileNotFoundError(f"Dataset not found: {DATA}")
+    if not INCOME_SNAPSHOT.exists():
+        raise FileNotFoundError(f"Snapshot chart not found: {INCOME_SNAPSHOT}")
     frame = pd.read_csv(DATA)
     required = {"Attrition", "Department", "OverTime", "JobRole", "JobSatisfaction", "YearsAtCompany", "MonthlyIncome"}
     missing = sorted(required.difference(frame.columns))
@@ -373,10 +363,8 @@ def main() -> None:
     tenure.to_csv(data_dir / "tenure_summary.csv", index=False, float_format="%.2f")
     make_dashboard(frame, department, roles, satisfaction, tenure)
 
-    overtime_yes = float(frame.loc[frame["OverTime"].eq("Yes"), "Attrition"].eq("Yes").mean() * 100)
-    overtime_no = float(frame.loc[frame["OverTime"].eq("No"), "Attrition"].eq("Yes").mean() * 100)
     COVER.parent.mkdir(parents=True, exist_ok=True)
-    make_cover(department, overtime_yes, overtime_no)
+    make_cover()
 
     readme = f"""# HR Workforce & Attrition Visualization
 
@@ -398,6 +386,7 @@ python projects/build_hr_visualization.py
 - `data/job_role_attrition_summary.csv` — counts and attrition rates by job role.
 - `data/job_satisfaction_summary.csv` — counts and attrition rates by satisfaction rating.
 - `data/tenure_summary.csv` — counts and attrition rates by tenure band.
+- `assets/monthly_income_distribution.png` — supplied chart shown in the portfolio snapshot.
 - `dashboard.html` — interactive Plotly visualizations.
 
 ## Source, attribution and data note

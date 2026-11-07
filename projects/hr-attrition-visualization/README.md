@@ -18,6 +18,7 @@ python projects/build_hr_visualization.py
 - `data/job_role_attrition_summary.csv` — counts and attrition rates by job role.
 - `data/job_satisfaction_summary.csv` — counts and attrition rates by satisfaction rating.
 - `data/tenure_summary.csv` — counts and attrition rates by tenure band.
+- `assets/monthly_income_distribution.png` — supplied chart shown in the portfolio snapshot.
 - `dashboard.html` — interactive Plotly visualizations.
 
 ## Source, attribution and data note
